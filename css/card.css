@@ -1,0 +1,47 @@
+.caixaDeTexto {
+    margin-bottom: 100px;
+}
+
+#descritivo {
+    background: rgba(0, 0, 0, 0.16);
+    width: 100%;
+    height: 300px;
+    padding:40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#descritivo:hover {
+    padding-bottom: 310px;
+}
+
+#descritivo img {
+    display: inline;
+}
+
+#descritivo h1 {
+    display: block;
+    background: rgba(0, 0, 0, 0.16);
+    text-align: center;
+    margin: 0 auto;
+}
+
+#descricaoProjeto {
+    padding-bottom: 60px;
+}
+
+#descricaoProjeto h1 {
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#descricaoProjeto p {
+    text-align: left;
+}
+
+
+

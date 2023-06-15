@@ -1,0 +1,364 @@
+* {
+    padding: 0; 
+    margin: 0; 
+    color: #FFF;
+    border: 0;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+body {
+    background: #051D3B;    
+} 
+
+
+
+#fundo {
+    outline: 0;
+    width: 100%;
+}
+
+#caixaTexto {
+    background: #000;
+    border-radius: 8px;
+    color: #FFF;
+    outline: 0; 
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    margin: auto;
+    background-color: #6BD1FF;
+    border-radius: 8px;     
+}
+
+#botao {
+        border-radius: 8px;
+        height: 56px;
+        background: rgba(80, 129, 251, 0.08);
+        border: none;
+        outline: 0;
+}
+
+.vertical1, .vertical2 {
+    display: flex;
+    align-items: center;
+}
+
+.vertical2 h6 {
+        color: #FFF;
+        letter-spacing: 0.5em;
+}
+
+#text1, #text2 {
+    display: block;
+    margin: 20px 20px 20px 0px;
+    border-radius: 8px;
+    height: 50px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.16);;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    
+}
+
+#text2 {
+    height: 100px;
+}
+
+#bloco1, #bloco2, #bloco3 {
+    display: inline;
+}
+
+#bloco3 p {
+    display: inline;
+}
+
+#bloco1 {
+    width: 25%;
+}
+
+#bloco2 {
+    width: 50%;
+}
+
+#bloco3 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#bloco1 img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+    height: 90px;
+}
+
+#bloco2 input {
+    margin: 5px 0px 10px 0px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.16);
+    border: none;
+    outline: 0;
+    max-width: 752px;
+    width: 100%;
+    height: 56px;
+    padding-left: 20px;
+    color: #FFFFFF;
+}
+
+#bloco3 img {
+    height: 50px;
+    max-width: 50px;
+    width: 100%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#blocoCodigo {
+    display: flex;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+#blocoCodigo button {
+    padding-top: 50px;
+    margin-left: 10px;
+    background: #051D3B; 
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+#blocoComunidade {
+    display: flex;
+    margin-right: 20px;
+}
+#blocoComunidade button {
+    padding-top: 50px;
+    margin-left: 10px;
+    background: #051D3B; 
+  
+}
+
+#codigo , #comunidade {
+    width: 100%;
+    max-width: 60px;
+    padding-top: 30px;
+    display: inline;
+    position: absolute;
+}
+
+#icone, #comu {
+    width: 100%;
+    max-width: 60px;
+    height: 60px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    display: inline;
+    margin-top: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+#caixa {
+    border-radius: 8px;
+    width: 400px;
+}
+
+.caixaDeTexto {
+    display: block;    
+    outline: 0;
+}
+
+#recebeCard {
+    display: block;    
+    outline: 0;
+}
+
+select, #b2 {
+    display: block;
+    margin: 20px 20px 20px 0px;
+    border-radius: 8px;
+    height: 50px;
+    width: 300px;
+    background: rgb(255, 255, 255, 0.16);
+    border: none;
+    outline: 0;
+}
+
+select {
+    padding: 10px;
+}
+
+option {
+    background-color: #051D3B;
+}
+
+#bordaDoBotao {
+    border: solid #FFF;
+    border-radius: 8px;
+    width: 305px;
+    border-width: 2px;
+    margin-right: 20p
+}
+
+#b1{
+    display: block;
+    margin: 0px 0px 0px 0px;
+    border-radius: 9px;
+    height: 90px;
+    width: 300px;
+    border: none;
+    outline: 0;
+    border: solid #051D3B;
+    border-width: 8px;
+}
+
+#b2 {
+    background-color: #5081FB;
+    color: #000;
+}
+
+.menu {
+    display: block;
+    color: #FFF; 
+    max-width: 900px; 
+    text-align: left;
+    display: inline;
+
+}
+
+.barraSuperior, .preservar {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    background-color: #6BD1FF;
+}
+
+
+.barraSuperior {
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 8px 8px 0px 0px; 
+    height: 50px;
+    background-color: #000;     
+    text-align: left; 
+}
+
+.preview-hljs {
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 0px 0px 8px 8px;
+    height: 300px;
+    background-color: #000;     
+    text-align: left;
+    overflow-y: auto;
+    overflow-x: auto;
+    resize: none;
+}
+
+input[type="color"] {
+    width: 100%;
+    appearance: none;
+    height: 3.5rem;
+    border: 1px solid var(--white);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background: transparent;
+    padding: 0.5rem;
+    margin: 1rem 0 0 0;
+}
+
+code {
+    background: transparent;
+    width: 100%;
+    height: 10px;
+    color: var(--white);
+    font-family: var(--code);
+    font-weight: var(--code-weight);
+    font-size: var(--code-size); 
+    overflow-y: auto;
+    overflow-x: auto;
+    word-break: break-word;
+}
+
+#verde, #vermelho, #amarelo {
+    display: inline;
+}
+
+#contemCards {
+    width: 50%;
+    display: none;
+    margin-right: 200px;
+    /* overflow: auto; */
+    height: 100%;
+    resize: none;
+  
+    
+}
+
+#cardsCriados {
+    display: block;
+    /* width: 100%; */
+    position: relative;
+}
+
+.cardizins {
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+#bordaDoCard {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    /* background-color: #6BD1FF; */
+}
+
+#recebeConteudo {
+    box-sizing: border-box; 
+    border-radius: 0px 0px 8px 8px;
+    height: 300px;
+    background-color: #fff;
+    text-align: left;
+    overflow-y: auto;
+    overflow-x: auto;
+    resize: none;
+
+
+}
+
+#conteudoInserido {
+    background-color: #000;
+    height: 300px;
+    width: 100%;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#editorBot:hover {
+    color: rgba(80, 129, 251, 0.08);
+}
+
+#comunidadeBot:hover {
+    color: rgba(80, 129, 251, 0.08);
+}
+
+
+

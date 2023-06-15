@@ -1,0 +1,84 @@
+
+
+
+@media (min-width: 900px) {
+    .vertical1 {
+        padding-top: 20px;
+        text-align: center;
+        justify-content: space-between;
+        flex-direction: row;
+        margin: auto;
+    }
+
+    .menu {
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 0px 100px 50px;
+        display: inline;
+        justify-content: center;
+        width: 25%;
+        
+    }
+
+    .vertical2 {
+        text-align: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    
+    #fundo img {
+        position: absolute;
+    }
+
+    #botao {
+        margin: 45px 205px 20px 200px;
+        border-radius: 8px;
+        height: 56px;
+        width: 752px;
+    }
+
+    .blocoFinal h6 {
+            text-align: center; 
+    }
+
+    #fundo {
+        margin: 0px -200px; 
+        padding: 30px 0px 0px 80px;
+        max-width: 710px;
+        height: 366px;
+        position: absolute;
+    }
+
+    #caixaTexto {
+        padding: 10px;
+        width: 100%;
+        max-width: 655px;
+        height: 250px;
+        background-color: #6BD1FF;
+        box-shadow: 5px 5px 5px #000;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 8px;
+        margin: auto;
+        border-radius: 8px;     
+    }
+
+    .blocoFinal {
+        padding: 70px 0px 200px 5px;
+        width: 25%;
+        
+        
+    }
+
+    #caixa {
+        margin-left: 210px;
+        margin-right: 210px;
+        border-radius: 8px;
+        position: relative;
+        width: 800px;
+    }
+
+   
+
+    
+}

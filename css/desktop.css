@@ -1,0 +1,118 @@
+@media (max-width: 900px){
+    .vertical1, .vertical2 {
+        flex-direction: column;
+        padding-bottom: 50px;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+    }
+
+
+    #bloco2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .vertical2 h6 {
+        text-align: center;   
+    }
+
+    .vertical1 img {
+        text-align: center;
+        display: flex;
+        width: 50%;
+        align-items: center;
+        border-radius: 8px;
+        justify-content: center;
+    }
+
+    .menu, .caixaDeTexto {
+        padding-bottom: 50px;
+    }
+
+    .caixaDeTexto {
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    #recebeCard {
+        width: 200px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-bottom: 50px;
+    }
+    
+
+    #botao {
+        width: 100%;
+        display: inline;
+        text-align: center;
+        margin-top: 90px;
+    }
+
+    #caixaTexto {
+            padding: 10px; 
+            width: 170px;
+            height: 190px;
+            margin-top: 50px;
+            margin-left: 15px;  
+            display: flex;     
+        }
+
+        #fundo img {
+            height: 2px;
+            width: 2px;
+        }
+
+        .menu, .blocoFinal {
+            width: 25%;
+        }
+        
+        .cardizins {
+         
+            width: 100%;
+            display: inline;
+        }
+
+        .blocoFinal {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        
+        .preservar {
+            width: 100%;
+        }
+
+        #contemCards {
+            width: 50%;
+            margin-left: 100px;
+            margin-right: 100px ;
+        }
+
+        #cardsCriados {
+            width: 100%;
+            position: relative;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            /* position: absolute; */
+            top: 0; bottom: 0;
+            left: 0; right: 0;
+            margin: auto;
+
+        }
+        #caixa {
+            width: 100%;
+        }
+
+}

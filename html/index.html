@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>EDITOR DE TEXTO</title>
+        <link rel="stylesheet" href="../css/card.css">
+        <link rel="stylesheet" href="../css/dracula.css">
+        <link rel="stylesheet" href="../css/global.css">
+        <link rel="stylesheet" href="../css/desktop.css">
+        <link rel="stylesheet" href="../css/responsivo.css">
+    </head>
+
+    </head>
+    <body>
+
+    <div class="vertical1">
+            <div id="bloco1">
+                <img src="../imagens/DEVDITOR.png">
+            </div>
+            <div id="bloco2">
+                <input placeholder="Busque por algo">
+            </div>
+            <div id="bloco3">
+                <img src="../imagens/photo.png">     
+                            <p>Harry</p>                   
+                    </div>
+    </div>
+
+
+    <div class="vertical2">
+            <div class="menu">
+                <h6>MENU</h6>
+                <div id="blocoCodigo">
+                    <img src="../imagens/i1.png" id="codigo">
+                    <img src="../imagens/c1.png" id="icone">
+                    <button id="editorBot">
+                        Editor de código
+                    </button>
+                </div>
+                <div id="blocoComunidade">
+                    <img src="../imagens/i2.png" id="comunidade">
+                    <img src="../imagens/c2.png" id="comu">
+                    <button id="comunidadeBot">
+                        Comunidade
+                    </button>
+                </div>
+            </div>
+
+            <div class="caixaDeTexto">
+                <div id="caixa">
+                    <div class="preservar">
+                        <div class="barraSuperior">
+                            <div id="vermelho">
+                                <img src="../imagens/vermelho.png" alt="">
+                            </div>
+                            <div id="amarelo">
+                                <img src="../imagens/amarelo.png" alt="">
+                            </div>
+                            <div id="verde">
+                                <img src="../imagens/verde.png" alt="">
+                            </div>
+    
+                        </div>
+                        <div id="parteCode">
+                            <code class="preview-hljs" contenteditable="true" aria-label="Editor de código">Digite seu código</code>
+                        </div>
+                    </div>
+                </div>
+                <button id="botao" onclick="aplicaHighlight()">Vizualizar com highlight</button>
+            </div>
+            <div id="contemCards">
+                <div id="cardsCriados">
+    
+                </div>
+            </div>
+
+    <div class="blocoFinal">
+        
+        <h6>SEU PROJETO</h6>
+            <textarea id="text1" placeholder="Nome do seu projeto"></textarea>
+            <textarea id="text2" placeholder="Descrição do seu projeto"></textarea> 
+        
+
+        <h6>PERSONALIZAÇÃO</h6>
+        <select id="linguagem" class="linguagem">
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>Javascript</option>
+                <option>C#</option>
+                <option>C++</option>
+                <option>C</option>
+                <option>Python</option>
+                <option>Java</option>
+                <option>PHP</option>
+                <option>Ruby</option>
+                <option>Swift</option>
+                <option>Go</option>
+            </select>
+            <div id="bordaDoBotao">
+                <input id="b1" type="color" value="#6BD1FF"></input>
+            </div>
+
+            <button id="b2">Salvar projeto</button>
+
+        </div>
+    </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <script src="../javascript/highlight.js"></script>
+    <script src="../javascript/salvandoProjeto.js"></script>
+
+    </body>
+</html>
+
